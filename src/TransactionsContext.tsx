@@ -26,7 +26,7 @@ export function TransactionsProvider({children}: TransactiosnProvideProps) {
   
     return(
         <TransactionsContext.Provider value={transactions}>
-
+          {children}
         </TransactionsContext.Provider>
     )
 
